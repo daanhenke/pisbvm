@@ -1,0 +1,7 @@
+0x00    -   NOP     -   No Operation
+0x01    -   PUSH X  -   Pushes X onto the stack
+0x02    -   ADD     -   Takes the top 2 values on the stack and puts the sum back on
+0x03    -   MUL     -   Multiplies the top 2 values on the stack
+0x10    -   JMP X   -   Jumps to location X
+0xFE    -   DMPS    -   Dumps stack --Debug Builds only--
+0xFF    -   HALT    -   Halts the system
